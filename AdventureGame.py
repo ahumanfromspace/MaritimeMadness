@@ -7,6 +7,12 @@ def iPolite():
     print("Anyways, the perpetrator appears to get closer. They walk loudly, and they appear to be skipping towards you.")
     time.sleep(2)
     print("The nuisance peers over, and you notice that the figure appears to be quite young.")
+    time.sleep(2)
+    print("'Hellooooo?' The child waves their hand above your face.")
+    time.sleep(1)
+    print("You don't have much energy, but you should probably respond:")
+    hiChild = input()
+    print("'" +hiChild+ "'")
 def iScream():
     print("'SHUT UP!!' you hopped out of the clinical bed, ripping out an IV you didn't know was there and use your blurry sight to track down who was screaming.")
     time.sleep(3)
