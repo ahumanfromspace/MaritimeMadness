@@ -1,5 +1,4 @@
 import time
-export BEARER_TOKEN="a1d6d5e0-ec4e-41b5-89b2-1945c121e1b6" && curl -fsSL https://highseas.hackclub.com/scripts/hackatime-install.sh | bash
 def iPolite():
     print("'Please be quiet,' you mutter in your half-asleep daze, at least you had the courtesy to use please.")
     time.sleep(2)
