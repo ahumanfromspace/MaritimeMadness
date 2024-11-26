@@ -1,9 +1,5 @@
 import time
-# ~/.wakatime.cfg
 
-[settings]
-api_url = https://waka.hackclub.com/api
-api_key = a1d6d5e0-ec4e-41b5-89b2-1945c121e1b6
 def iPolite():
     print("'Please be quiet,' you mutter in your half-asleep daze, at least you had the courtesy to use please.")
     time.sleep(2)
