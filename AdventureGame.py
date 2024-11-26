@@ -20,6 +20,8 @@ def iPolite():
     print("'" +hiChild+ "'")
     time.sleep(3)
     print("'Oh wow! You're actually not dead!' The child retreats from your face, standing next to the bed.")
+    time.sleep(3)
+    print("")
 def iScream():
     print("'SHUT UP!!' you hopped out of the clinical bed, ripping out an IV you didn't know was there and use your blurry sight to track down who was screaming.")
     time.sleep(3)
