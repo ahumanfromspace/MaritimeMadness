@@ -4,7 +4,7 @@ I hope to finish by December 2024.
 
 Maritime Madness is a choose your own adventure game first started in July 2024, put aside for a bit, and now back to being made.
 It centers around the protagonist, you, as you go through the research center and start uncovering its mysteries after being ressurected after drowning.
-It involves: Sea Monsters, Romance, Mental Health themes, and some violence.
+It will involve some themes that can be uncomfy, but not yet!
 Be warned.
 
 Haha anyways have fun with this wip!!
