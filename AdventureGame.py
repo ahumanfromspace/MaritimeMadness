@@ -44,9 +44,10 @@ def speakSpeakSleep():
     time.sleep(3)
     print("or politely tell them to be quiet.")
     time.sleep(1)
-    print("To scream, type scream, and for polite no, type polite")
+    print("To scream, type scream, and for polite no, type polite:")
     userInput = ""
     while userInput not in screamPolite:
+        userInput = input()
         if userInput == "scream":
             iScream()
         elif userInput == "polite":
@@ -57,8 +58,6 @@ def speakSpeakSleep():
             print("YOU DIED.")
             quit()
 
-
-    
 def speakSpeak():
     print("You muster up enough strength to talk, and you can say one thing:")
     firstWords = input()
