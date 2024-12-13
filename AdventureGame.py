@@ -1,12 +1,78 @@
 import time
+import math
+rpSChild = 0
+def letsPlay():
+  print("yay")
+
+def shovelTalkChild():
+  print("Uhm, so turns out that was actually a test to see if you were a decent guy.")
+  time.sleep(3)
+  print("my bad guys..")
+  time.sleep(1)
+  print("Anyways, they sedated you and froze you 'till someone could take you back to a normal research center,")
+  time.sleep(4)
+  print("Which was a liiiitttlleeee too long,")
+  time.sleep(2)
+  print("So like when they unfroze you, they couldn't wake you up-")
+  time.sleep(1)
+  print("Again, my bad.")
+  time.sleep(1)
+  print("YOU DIED")
+  quit()
+
+def relationshipPointsIntro():
+   time.sleep(4)
+   print(".")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print("INTRODUCING: RELATIONSHIP POINTS!")
+   time.sleep(2)
+   print("Right now, your points for the child are at..." + rpSChild)
+   time.sleep(2)
+   print("Depending on that for each character, a different thing will happen.")
+   time.sleep(2)
+   print("Basically, more or less information.")
+   time.sleep(2)
+   print("Whenever you're alone, just type 'Relationships' to check any one of them.")
+   time.sleep(3)
+   print("Thats it.")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print(".")
+   time.sleep(1)
+   print(".")
+   if rpSChild > 0:
+    letsPlay()
+   else:
+    shovelTalkChild()
 
 def sureThing():
-   print("hi")
+   print("The child let out a shriek of happiness and skipped away to grab something.")
+   time.sleep(3)
+   print("Wonderful.")
+   time.sleep(1)
+   print("Anyways, now that you are alone, I can teach you a 'lil something.")
+   rpSChild + 1
+   relationshipPointsIntro()
+
 
 
 def hellNaw():
-   print("ugh")
-
+   print("The child pouted and sped off suddenly, leaving you in the dust.")
+   time.sleep(3)
+   print("How peculiar.")
+   time.sleep(1)
+   print("Alrighty then, now that you're actually awake for once, we can get some learning in.")
+   rpSChild - 1
+   relationshipPointsIntro()
 
 def iPolite():
    nopeSure = ["Nope", "nope", "Sure", "sure"]
@@ -175,7 +241,3 @@ if __name__ == "__main__":
        time.sleep(2)
        introScene()
 # i eat cars haha im so amazing
-
-
-
-
